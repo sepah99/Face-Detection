@@ -34,10 +34,6 @@ while True:
 
         # Find eye coordinates
         eyes = eye_cascade.detectMultiScale(face_gray)
-        # if(eyes == None):
-        #     print("none")
-        # if(np.size(eyes)):
-        #     print("yes")
 
 
         for(e_x, e_y, e_w, e_h) in eyes:
